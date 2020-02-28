@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--Header start-->
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <div class="header_logo">
+                    <a href="/" class="header_logo-link">
+                        <img src="/img/logo.png" alt="logo_cite" class="header_logo-pic">
+                    </a>
+                </div>
+            
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_item">
+                            <a href="#about_me" class="header_link">Обо мне</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#my_jobs" class="header_link">Мои работы</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#contacts" class="header_link">Контакты</a>
+                        </li>  
+                        <li class="header_item">
+                            <a href="https://www.figma.com/file/EqigEtzxPLQ2CSnLNbskY0/FIrst_lab?node-id=2%3A0" class="header_link">Figma</a>
+                        </li>                        
+                    </ul>   
+                    <div class="header_nav_close">
+                        <span class="header_nav_close_line"></span>
+                        <span class="header_nav_close_line"></span>
+                    </div>                 
+                </nav>   
+                
+                <div class="header_burger burger">
+                    <span class="burger_line burger_line_first"></span>
+                    <span class="burger_line burger_line_second"></span>
+                    <span class="burger_line burger_line_third"></span>
+                </div>
+
+            </div>     
+        </div>
+    </header>
+    <!--Header end-->
+
+
+    <div class="bg-img">
+        <img src="/img/Info-bg.jpg" alt="" class="bg-img-icone">
+        <img src="/img/Info-bg-1100.jpg" alt="" class="bg-img-icone_min_screen">
+    </div>
+
+
+    <!--Main start-->
+    <main class="main">
+        <!--Intro start-->
+        <div class="intro">
+            <div class="wrapper">
+                <h1 class="intro_title">I am student</h1>
+            </div>
+        </div>
+        <div class="intro-end" id="about_me"></div>
+        <!--Intro end-->
+
+        <!--About Me start-->
+        <div class="about-me">
+            <div class="wrapper">                
+                <div class="about-me_cards">
+
+                    <div class="about-me_card">
+                        <h2 class="about-me_card-title">
+                            Обо мне
+                        </h2>      
+                        <span class="about-me_card-line"></span>     
+                        <p class="about-me_card-desc">
+                            Меня зовут Вадим, я студент третьего курса Липецкого Государственного  Технического Университета. У меня есть опыт в web разработке, разработке desktop приложений на C#, знаком с машинным обучением на python, прошел курс Linux.
+                        </p>
+                        <button class="more_info">Больше информации</button>
+                    </div>
+
+                    <div class="about-me_card">
+                        <div class="about-me_card-pic"></div>
+                        <div class="my_photo">
+                            <img src="/img/My_photo.jpg" alt="" class="my_photo-pic">
+                        </div>
+
+                    </div>
+
+                    <div class="about-me_card">
+                        <h2 class="about-me_card-title-skills">
+                            Профессиональные навыки.
+                        </h2>
+                        <p class="about-me_card-title-desc">
+                            Уровень знаний языков.
+                        </p>
+                        
+                        <div class="cards_grid">
+                            
+                            <div class="about-me_card-elem">
+                                <div class="card-html">
+                                    <div class="card-elem-title">
+                                        <p class="">HTML</p>
+                                    </div>  
+                                    <div class="card-elem-desc">
+                                        <p class="">57%</p>
+                                    </div>
+                                </div>                                
+                                <div class="card-html">
+                                    <progress class="about-me-progressbar" value="57" max="100"></progress> 
+                                </div>
+                            </div>
+                            <div class="about-me_card-elem">
+                                <div class="card-html">
+                                    <div class="card-elem-title">
+                                        <p class="">CSS</p>
+                                    </div>  
+                                    <div class="card-elem-desc">
+                                        <p class="">42%</p>
+                                    </div>
+                                </div>
+                                <div class="card-html">
+                                    <progress class="about-me-progressbar" value="42" max="100"></progress> 
+                                </div>
+                            </div>
+                            <div class="about-me_card-elem">
+                                <div class="card-html">
+                                    <div class="card-elem-title">
+                                        <p class="">C</p>
+                                    </div>  
+                                    <div class="card-elem-desc">
+                                        <p class="">68%</p>
+                                    </div>
+                                </div>
+                                <div class="card-html">
+                                    <progress class="about-me-progressbar" value="68" max="100"></progress> 
+                                </div>
+                            </div>
+                            <div class="about-me_card-elem">
+                                <div class="card-html">
+                                    <div class="card-elem-title">
+                                        <p class="">C++</p>
+                                    </div>  
+                                    <div class="card-elem-desc">
+                                        <p class="">61%</p>
+                                    </div>
+                                </div>
+                                <div class="card-html">
+                                    <progress class="about-me-progressbar" value="61" max="100"></progress> 
+                                </div>
+                            </div>
+                            <div class="about-me_card-elem">
+                                <div class="card-html">
+                                    <div class="card-elem-title">
+                                        <p class="">C#</p>
+                                    </div>  
+                                    <div class="card-elem-desc">
+                                        <p class="">74%</p>
+                                    </div>
+                                </div>
+                                <div class="card-html">
+                                    <progress class="about-me-progressbar" value="74" max="100"></progress> 
+                                </div>
+                            </div>
+                            <div class="about-me_card-elem">
+                                <div class="card-html">
+                                    <div class="card-elem-title">
+                                        <p class="">PYTON</p>
+                                    </div>  
+                                    <div class="card-elem-desc">
+                                        <p class="">60%</p>
+                                    </div>
+                                </div>
+                                <div class="card-html">
+                                    <progress class="about-me-progressbar" value="60" max="100"></progress> 
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>                      
+        </div>
+        <div class="end" id="my_jobs"></div>  
+        <!--About Me end-->
+
+        <!--My Jobs start-->
+
+        <div class="my_jobs">
+            <div class="wrapper">
+                <div class="my_jobs-title">
+                    <h2 class="title-info">Мои работы</h2>
+                </div>
+                <div class="my_jobs-cards">
+                    <div class="my_jobs-card">
+                        <div class="card-img">
+                            <img src="/img/calendar.png" alt="Calendar" class="card-img-icone">
+                        </div>
+                        <p class="card-title">Приложение использующее Google Calendary API.</p>
+                        <p class="card-desc">Разрабатывал свой календарь, который использовал google calendary api и vk api.</p>
+                    </div>
+                    <div class="my_jobs-card">
+                        <div class="card-img">
+                            <img src="/img/asp-net.png" alt="Asp.Net Logo" class="card-img-icone">
+                        </div>
+                        <p class="card-title">Сайт на базе ASP.NET Core MVC.</p>
+                        <p class="card-desc">Создал сайт для поиска вакансий.</p>
+                    </div>
+                    <div class="my_jobs-card">
+                        <div class="card-img">
+                            <img src="/img/python.png" alt="Python Logo" class="card-img-icone">
+                        </div>
+                        <p class="card-title">Программы использующие машинное обучение.</p>
+                        <p class="card-desc">Использовал в программах различные нейросети, строил модели линейной регрессии.</p>
+                    </div>
+                    <div class="my_jobs-card">
+                        <div class="card-img">
+                            <img src="/img/C++ img.png" alt="C++ Logo" class="card-img-icone">
+                        </div>
+                        <p class="card-title">Программы использующие Win32 Api.</p>
+                        <p class="card-desc">Изучал принципы построения клиент-серверных приложений основанных на Win32 Api.</p>
+                    </div>
+                    <div class="my_jobs-card">
+                        <div class="card-img">
+                            <img src="/img/C_Sharp.png" alt="C# Logo" class="card-img-icone">
+                        </div>
+                        <p class="card-title">Написал программу для поиска безусловного экстремума функции.</p>
+                        <p class="card-desc">Все вычисления и производились с помощью языка C#, а графический интерфейс пользователя на WPF.</p>
+                    </div>
+                    <div class="my_jobs-card">
+                        <div class="card-img">
+                            <img src="/img/html img.png" alt="Html Logo" class="card-img-icone">
+                        </div>
+                        <p class="card-title">Сделал этот сайт на html и css.</p>
+                        <p class="card-desc">Макет сайта был разработан в дизайнере Figma, а потом реализован с помощью html и css.</p>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <div class="end" id="contacts"></div>
+        <!--My Jobs end-->
+
+        <!--Contacts start-->
+
+        <div class="contacts">
+            <div class="wrapper">
+                <div class="contacts-title">
+                    <h2 class="title-info">Контакты</h2>
+                </div>
+                <div class="contacts-cards">
+                    <div class="contacts-card">
+                        <div class="contacts-card-img">
+                            <img src="/img/Phone_img.png" alt="Phone logo" class="contacts-card-img-icone">
+                        </div>
+                        <p class="contacts-card-title">Звоните.</p>                        
+                        <p class="card-title-desc">+7 908 699 10 46</p>                       
+                    </div>     
+                    <div class="contacts-card">
+                        <div class="contacts-card-img">
+                            <img src="/img/Mail img.png" alt="Mail logo" class="contacts-card-img-icone">
+                        </div>
+                         <p class="contacts-card-title">Пишите.</p>                        
+                        <p class="card-title-desc">twi9gy@mail.ru</p>
+                    </div>     
+                    <div class="contacts-card">
+                        <div class="contacts-card-img">
+                            <img src="/img/vk_img.png" alt="Vk logo" class="contacts-card-img-icone">
+                        </div>
+                        <p class="contacts-card-title">Пишите.</p>
+                        <a href="https://vk.com/id304879617" class="contacts-vk">https://vk.com/id304879617</a>
+                    </div>     
+                    <div class="contacts-card">
+                        <div class="contacts-card-img">
+                            <img src="/img/telegram_img.png" alt="Telegram logo" class="contacts-card-img-icone">
+                        </div>
+                         <p class="contacts-card-title">Пишите.</p>                        
+                        <p class="card-title-desc">+7 908 699 10 46</p>
+                    </div>               
+                </div>
+            </div>            
+        </div>
+        <div class="end"></div>
+    </main>
+    <!--Main end-->
+
+    <footer>
+        <div class="footer-bg">
+            <div class="wrapper">
+                <h2 class="footer-text">2020 © Design by Vadim Samoylov</h2>              
+            </div>
+        </div>
+    </footer>
+    <script src="/js/main.js"></script>
+</body>
+</html>
