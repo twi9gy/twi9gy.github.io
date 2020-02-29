@@ -484,7 +484,7 @@ progress::-webkit-progress-value {
   }
 
   .footer-text{
-    margin: 74px 290px 74px 290px;
+    margin: 60px 0 0 0;`
     font-size: 24px;
     line-height: 28px;
     text-align: center;
