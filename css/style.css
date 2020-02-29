@@ -580,7 +580,7 @@ progress::-webkit-progress-value {
   }
 
 
-  @media screen and (max-width: 850px){
+  @media screen and (max-width: 870px){
     /* Header start */
     .header_burger{
       margin-right: 5%;
@@ -635,6 +635,9 @@ progress::-webkit-progress-value {
     }
     .header_nav_close_line:last-child{
       transform: translateY(-50%) rotate(-45deg);
+    }
+    .header_logo{
+      margin-left: 5%;
     }
     /* Header end */
 
@@ -725,7 +728,6 @@ progress::-webkit-progress-value {
       font-size: 30px;
     }
     .header_logo-pic {
-      margin-left: 5%;
       max-height: 75px;
       max-width: 75vw;
     }
